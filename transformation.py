@@ -91,7 +91,4 @@ print(f"Execution Time: {execution_time:.2f} seconds")
 memory_usage = (psutil.Process().memory_info().rss)/1024/1024
 print(f"Memory usage: {memory_usage:.2f} MB")
 
-# save in hdfs
-# data_master.write.mode("overwrite").format("parquet").save("/user/ahyar/data_mart/data_master")
-# data_mart_one.write.mode("overwrite").format("parquet").save("/user/ahyar/data_mart/data_mart1")
-# data_mart_two.write.mode("overwrite").format("parquet").save("/user/ahyar/data_mart/data_mart2")
+
